@@ -1,7 +1,7 @@
 from ex107 import moeda
 
-v = float(input('Digite um preço: R$ '))
-print(f'A metade de {v} é {moeda.metade(v)}')
-print(f'O dobro de {v} é {moeda.dobro(v)}')
-print(f'Aumentado 10%, temos {moeda.aumentar(v, 10)}')
-print(f'Reduzindo 10%, temos {moeda.reduzir(v, 10)}')
+p = float(input('Digite um preço: R$ '))
+print(f'A metade de {p} é {moeda.metade(p)}')
+print(f'O dobro de {p} é {moeda.dobro(p)}')
+print(f'Aumentado 10%, temos {moeda.aumentar(p, 10)}')
+print(f'Reduzindo 10%, temos {moeda.reduzir(p, 10)}')

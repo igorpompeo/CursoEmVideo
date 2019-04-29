@@ -1,15 +1,15 @@
-def aumentar(v, n):
-    a = (v + (v * (n/100)) * 1)
-    return a
+def aumentar(preço, taxa):
+    res = preço + (preço * taxa/100)
+    return res
 
-def dobro(v):
-    d = v * 2
-    return d
+def dobro(preço):
+    res = preço * 2
+    return res
 
-def metade(v):
-    m = v / 2
-    return m
+def metade(preço):
+    res = preço / 2
+    return res
 
-def reduzir(v, n):
-    r = (v - (v * (n/100)) * 1)
-    return r
+def reduzir(preço, taxa):
+    res = preço - (preço * taxa/100)
+    return res
