@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(119, 119, 158);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        // O termo window não é necessário ser posto
+        alert('Minha primeira mensagem!') // Janela que mostra a mensagem
+        var resp = confirm('Está gostando de JS?') // Janela com OK e Cancelar
+        if (resp == true) { // ou pode ser feito assim if(resp) dará o mesmo resultado
+            var nome = prompt('Qual é seu nome?') // Vai perguntar o nome...
+            document.write(`Muito prazer ${nome}, seja muito bem-vindo!`)
+        }
+        else {
+            alert('Saindo do programa...')
+        }
+    </script>
+</body>
+</html>
