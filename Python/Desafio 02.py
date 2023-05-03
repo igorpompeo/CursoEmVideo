@@ -1,5 +1,0 @@
-print ("===== DESAFIO 02 =====")
-dia = input ("Qual dia do seu nascimento?")
-mes = input ("Qual o mês?")
-ano = input ("E o ano?")
-print ("Você nasceu no dia",dia," de ",mes," de ",ano,". Correto?")
