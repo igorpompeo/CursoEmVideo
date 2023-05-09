@@ -1,5 +1,5 @@
 # CursoEmVideo
-Exercícios das aulas do canal do Youtube, Curso em Vídeo.</br>
+Aqui ficarão salvos todos os exercícios apresentados e resolvidos nas aulas ministradas pelo Prof. Guanabara em seu canal do youtube, Curso em Vídeo.</br>
 ## 🌱 Atualmente estou aprendendo ... </br>
 <br><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="70" height="70"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="70" height="70"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" width="70" height="70"/>
 ## Tecnologias e Ferramentas
