@@ -19,10 +19,14 @@ public class Main {
                 1.70f, 119.3f, 5, 4, 3);
         l[5] = new Lutador("Nerdaart", "EUA", 30,
                 1.81f, 105.7f, 12, 2, 4);
+
+//        for (Lutador lutador:l){ // For para fazer a apresentação dos lutadores
+//            lutador.apresentar();
+//            lutador.status();
+//        }
         
-        for (Lutador lutador:l){ // For para fazer a apresentação dos lutadores
-            lutador.apresentar();
-            lutador.status();
-        }
+        Luta uec = new Luta();
+        uec.marcarLuta(l[0], l[1]);
+        uec.lutar();
     }
 }
